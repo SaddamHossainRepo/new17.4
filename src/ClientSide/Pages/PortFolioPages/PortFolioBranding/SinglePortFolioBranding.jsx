@@ -187,7 +187,7 @@ const SinglePortFolioBranding = () => {
             lg:mt-[-50px] lg:rounded-t-[50px]
             ">
                 <div className="brandigParent">
-                    <p className="pageTitle">Home . Portfolio . Branding</p>
+                    <p className="pageTitle"><Link to='/'>Home</Link> . Portfolio . Branding</p>
                     <h3 className="titleSubHeading">Friday Fashion</h3>
                     <div className="singleImgParent">
                         <img className="h-full w-full object-cover xl:rounded-[30px] 2xl:rounded-[30px] lg:rounded-[25px] md:rounded-[20px] rounded-[15px]" src="/induvisual.png" alt="" />

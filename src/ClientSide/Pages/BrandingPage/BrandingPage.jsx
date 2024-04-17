@@ -301,21 +301,26 @@ const BrandingPage = () => {
                     </div>
                     <div className="ourWorkParent">
                         <div>
-                            <Link to="#">
-                            <img className="WorkImgOne" src="/imageOne.png" alt="" />
+                            <Link to="/InduvisualBrandingTwo">
+                            {/* <img className="WorkImgOne" src="/imageOne.png" alt="" /> */}
+                            <img className="WorkImgOne" src="/protfolioBranding/careConnect/Group326.png" alt="" />
                             </Link>
-                            <h4 className="ourWorksHead">Awad For Puntland</h4>
-                            <p className="ourWorksPara">Your brand is more than just your logo. It's the overall image and reputation of your business or organization.</p>
+                            {/* <h4 className="ourWorksHead">Awad For Puntland</h4> */}
+                            <h4 className="ourWorksHead">Care Connect</h4>
+                            {/* <p className="ourWorksPara">Your brand is more than just your logo. It's the overall image and reputation of your business or organization.</p> */}
+                            <p className="ourWorksPara">Care Connect is a beacon of hope and support for those seeking customized healthcare and well-being solutions. </p>
                         </div>
                         <div>
-                            <Link to="#">
-                            <img className="WorkImgTwo" src="/imageTwo.png" alt="" />
+                            <Link to="/InduvisualBrandingThree">
+                            <img className="WorkImgTwo" src="/protfolioBranding/therapy/Group327.png" alt="" />
                             </Link>
-                            <h4 className="ourWorksHead">Jannah Fitwear</h4>
-                            <p className="ourWorksPara" >Your brand is more than just your logo. It's the overall image and reputation of your business or organization.</p>
+                            {/* <h4 className="ourWorksHead">Jannah Fitwear</h4> */}
+                            <h4 className="ourWorksHead">Inclusive Therapy Center</h4>
+                            {/* <p className="ourWorksPara" >Your brand is more than just your logo. It's the overall image and reputation of your business or organization.</p> */}
+                            <p className="ourWorksPara" >The Inclusive Therapy Center, located in St. Louis Park, MN, is a beacon of excellence in therapy services, specializing in Applied Behavior Analysis (ABA).</p>
                         </div>
                         <div>
-                            <Link to="#">
+                            <Link to="/SinglePortFolioBranding">
                             <img className="WorkImgThree" src="/cardThree.png" alt="" />
                             </Link>
                             <h4 className="ourWorksHead">Friday Fashion</h4>

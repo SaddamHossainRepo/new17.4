@@ -231,7 +231,7 @@ const PortFolioBranding = () => {
 
                     {/* ==========Islamic sections ======= */}
                     <div className=" text-white">
-                        <h2 className="titleSubHeading">Islamic</h2>
+                        <h2 className="titleSubHeading">All</h2>
                         <div className="hidden md:block lg:block xl:block 2xl:block">
                             <div className="
                        
@@ -281,7 +281,7 @@ const PortFolioBranding = () => {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <h4 className="potraitBottomText rounded-[15px] text-center">Care connect</h4>
+                                                <h4 className="potraitBottomText rounded-[15px] text-center">Care Connect</h4>
                                             </div>
                                         </div>
                                     </Link>
@@ -302,7 +302,7 @@ const PortFolioBranding = () => {
                                                 </div>
                                                 {/* <h4 className="potraitBottomText rounded-[15px] text-center">Lorem</h4> */}
                                             </div>
-                                            <h4 className="potraitBottomText rounded-[15px] text-center">Inclusive therapy center</h4>
+                                            <h4 className="potraitBottomText rounded-[15px] text-center">Inclusive Therapy Center</h4>
                                         </div>
 
                                         </div>

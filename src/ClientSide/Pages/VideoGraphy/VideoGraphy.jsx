@@ -246,7 +246,7 @@ const VideoGraphy = () => {
             "
       >
         <div className=" webDesignParent ">
-          <p className="pageTitle">Home . Our Service . Videography</p>
+          <p className="pageTitle"><Link to='/'>Home</Link> . Our Service . Videography</p>
           <h2
             className="titleSubHeading block md:hidden lg:hidden xl:hidden 2xl:hidden
                             "

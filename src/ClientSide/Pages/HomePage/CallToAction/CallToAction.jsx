@@ -62,11 +62,11 @@ const CallToAction = () => {
                             lg:max-w-[400px] lg:mr-[100px]
                             md:max-w-[400px] md:mr-[80px]
                         ">
-                                    <h2 className="ctaHeading">Ready to Elevate Your Brand?</h2>
+                                    <h2 className="ctaHeading">Got a brilliant idea you're itching to discuss?</h2>
                                     <p className="ctaPara">Don't settle for mediocrity. Partner with Fowzi Media and take your brand to new heights. Schedule a consultation today and discover how our branding services can transform your business.</p>
                                 </div>
                                 <div className="ctaBtnParent">
-                                    <button className="ctaBtn" onClick={revealPrice}>Reveal Price</button>
+                                    <button className="ctaBtn" onClick={revealPrice}>Let's discuss</button>
                                 </div>
                             </div>
                         </div>

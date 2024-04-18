@@ -45,8 +45,8 @@
 
   .cardBaseText {
     @apply 
-    2xl:text-[18px] 2xl:leading-[23.6px] 2xl:text-justify 
-    xl:text-[16px] leading-[16px] xl:text-justify 
+    2xl:text-[18px] 2xl:leading-[35.6px] 2xl:text-justify 
+    xl:text-[16px] leading-[20px] xl:text-justify 
     text-[14px] 
     /* ------------common styes ------------- */
     font-glacialBase text-white
@@ -433,11 +433,11 @@
   }
 
   .aboutUsText {
-    @apply 2xl:text-[18px] 2xl:leading-[21.58px] 2xl:pt-[15px] 2xl:pb-[35px] 
-    xl:text-[16px] xl:leading-[19.18px] xl:pt-[10px] xl:pb-[30px]
-    lg:text-[16px] lg:leading-[19.18px] lg:pt-[10px] lg:pb-[30px]
-    md:text-[16px] md:leading-[19.18px] md:pt-[10px] md:pb-[20px]
-    text-[14px] leading-[21px] pt-[10px] pb-[20px]
+    @apply 2xl:text-[18px] 2xl:leading-[23.58px] 2xl:pt-[15px] 2xl:pb-[35px] 
+    xl:text-[16px] xl:leading-[20px] xl:pt-[10px] xl:pb-[30px]
+    lg:text-[16px] lg:leading-[20px] lg:pt-[10px] lg:pb-[30px]
+    md:text-[16px] md:leading-[20px] md:pt-[10px] md:pb-[20px]
+    text-[14px] leading-[20px] pt-[10px] pb-[20px]
     /* -----------Common Styles ----------- */
     font-glacialBase
   }
@@ -591,10 +591,10 @@
   .brandingParaText{
     @apply 
     2xl:text-[20px] 2xl:leading-[24.58px]  2xl:pb-[50px]  2xl:pt-0
-    xl:text-[16px] xl:leading-[19.16px] xl:pb-[40px] xl:pt-0
-    lg:text-[16px] lg:leading-[18px] lg:pb-[30px] lg:pt-0
-    md:text-[14px] md:leading-[16px] md:pb-[20px] md:pt-0
-    text-[14px] leading-[16px] pb-[20px] pt-[20px]
+    xl:text-[16px] xl:leading-[20px] xl:pb-[40px] xl:pt-0
+    lg:text-[16px] lg:leading-[20px] lg:pb-[30px] lg:pt-0
+    md:text-[14px] md:leading-[20px] md:pb-[20px] md:pt-0
+    text-[14px] leading-[20px] pb-[20px] pt-[20px]
 
      /* --------------Common Styles -------------- */
      text-white font-glacialBase text-justify

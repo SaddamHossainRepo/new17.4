@@ -196,7 +196,7 @@ const PortFolioVideography = () => {
                 md:px-[50px] md:pt-[40px] md:pb-[100px]
                 px-[20px] pt-[40px] pb-[60px]
                  text-white">
-                    <p className="pageTitle">Home . Portfolio . Videography</p>
+                    <p className="pageTitle"><Link to='/'>Home</Link> . Portfolio . Videography</p>
                     <div className="md:flex lg:flex xl:flex 2xl:flex justify-between w-full ">
                         <div className="2xl:w-[776px] xl:w-[578px] lg:w-[48%] md:w-[48%]">
                             <h2 className="titleSubHeading ">Videography</h2>

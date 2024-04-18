@@ -20,7 +20,7 @@ const WebDesignFirst = () => {
             </div>
             <div className="bg-[#111111] 2xl:mt-[-100px] 2xl:rounded-t-[50px] xl:mt-[-50px] xl:rounded-t-[50px] ">
                 <div className=" 2xl:px-[150px] 2xl:pt-[50px] 2xl:pb-[200px] xl:px-[60px] xl:pt-[40px] xl:pb-[150px]  text-white">
-                    <p className="pageTitle">Home . Portfolio . Web Design . Friday Fashion</p>
+                    <p className="pageTitle"><Link to='/'>Home</Link> . Portfolio . Web Design . Friday Fashion</p>
                     <h2
                         className="2xl:text-[25px] 2xl:leading-[30px] font-glaCailBold 2xl:pb-[50px]
                     xl:text-[20px] xl:leading-[20px] xl:pb-[20px] 

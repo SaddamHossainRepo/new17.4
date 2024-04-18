@@ -258,7 +258,7 @@ const PortFolioPhotography = () => {
             "
       >
         <div className=" brandigParent ">
-          <p className="pageTitle">Home . Portfolio . Photography</p>
+          <p className="pageTitle"><Link to='/'>Home</Link> . Portfolio . Photography</p>
 
           {/* ==========Potrait sections ======= */}
           <div className=" text-white">

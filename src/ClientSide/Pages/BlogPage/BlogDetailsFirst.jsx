@@ -26,7 +26,7 @@ const BlogDetailsFirst = () => {
             </div>
             <div className="bg-[#111111] 2xl:mt-[-100px] 2xl:rounded-t-[50px]  xl:mt-[-50px] xl:rounded-t-[50px]">
                 <div className=" 2xl:px-[150px] 2xl:pt-[50px] 2xl:pb-[200px] xl:px-[60px] xl:pt-[40px] xl:pb-[150px]  text-white">
-                    <p className="pageTitle">Home . Blog . The Importance of Using Video.....</p>
+                    <p className="pageTitle"><Link to='/'>Home</Link> . Blog . The Importance of Using Video.....</p>
 
                     {/* ---------- Blog Author information ------------------- */}
                     <div className="flex justify-between 2xl:pb-[60px] xl:pb-[30px]">

@@ -225,7 +225,7 @@ const PortFolioWebDesign = () => {
             lg:mt-[-50px] lg:rounded-t-[50px]
             ">
                 <div className=" brandigParent ">
-                    <p className="pageTitle">Home . Portfolio . Website design</p>
+                    <p className="pageTitle"><Link to='/'>Home</Link> . Portfolio . Website design</p>
 
                     {/* ==========HealthCare sections  for large and mobile======= */}
                     <div className=" text-white">

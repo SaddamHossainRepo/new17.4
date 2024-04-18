@@ -198,7 +198,7 @@ const BrandingPage = () => {
             lg:mt-[-40px] lg:rounded-t-[40px]
             ">
                 <div className=" brandigParent ">
-                    <p className="pageTitle">Home . Our Service . Branding</p>
+                    <p className="pageTitle"><Link to='/'>Home</Link> . Our Service . Branding</p>
                     <h2 className="titleSubHeading block md:hidden lg:hidden xl:hidden 2xl:hidden
                             ">Branding</h2>
                     <div className="flex justify-between w-full flex-col-reverse md:flex-row lg:flex-row xl:flex-row 2xl:flex-row">

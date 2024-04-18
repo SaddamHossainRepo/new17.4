@@ -200,7 +200,7 @@ const AboutUsPage = () => {
                     md:pt-[40px] md:px-[50px]
                     pt-[40px] px-[20px]
                      text-white">
-                        <p className="pageTitle">Home . About us</p>
+                        <p className="pageTitle"><Link to='/'>Home</Link> . About us</p>
                         <div className="grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2
                          grid-cols-1 justify-between 
                         
@@ -214,12 +214,12 @@ const AboutUsPage = () => {
                                     <div className="titleHiddenMobile">
                                         <h2 className="titleSubHeading 2xl:pb-[25px] xl:pb-[20px] lg:pb-[20px] md:pb-[15px] pb-[15px]">About Us</h2>
                                     </div>
-                                    <p className="2xl:pb-[50px]  2xl:text-[18px] 2xl:pt-0
+                                    <p className="2xl:pb-[50px]  2xl:text-[18px] 2xl:leading-[23px] 2xl:pt-0
                                 font-glacialBase 
-                                xl:text-[16px] xl:leading-[18px] xl:pb-[40px] xl:pt-0
-                                lg:text-[16px] lg:leading-[18px] lg:pb-[40px] lg:pt-0
-                                md:text-[16px] md:leading-[18px] md:pb-[30px] md:pt-0
-                                text-[14px] leading-[21px] pb-[20px] pt-[20px]
+                                xl:text-[16px] xl:leading-[20px] xl:pb-[40px] xl:pt-0
+                                lg:text-[16px] lg:leading-[20px] lg:pb-[40px] lg:pt-0
+                                md:text-[16px] md:leading-[20px] md:pb-[30px] md:pt-0
+                                text-[14px] leading-[20px] pb-[20px] pt-[20px]
                                 
                                 "><span className="font-glaCailBold text-[#FF0000]">Fowzi Media</span> A leading branding and marketing agency specializing in video production, photography, and strategic communications. Our unique perspective as a minority-immigrant-owned firm drives compelling digital storytelling that engages audiences and catalyzes social change.
                                 We excel at bridging communication gaps between public, nonprofit, and private sector leaders and immigrant and minority communities. Grounded in trust-building, our approach fosters meaningful relationships essential for successful marketing and branding campaigns.

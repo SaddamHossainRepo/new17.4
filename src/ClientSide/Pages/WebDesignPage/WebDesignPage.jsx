@@ -218,7 +218,7 @@ const WebDesignPage = () => {
             ">
                 <div className=" webDesignParent ">
 
-                    <p className="pageTitle">Home . Our Service . Website Development</p>
+                    <p className="pageTitle"><Link to='/'>Home</Link> . Our Service . Website Development</p>
                     <h2 className="titleSubHeading block md:hidden lg:hidden xl:hidden 2xl:hidden
                             ">Website Development</h2>
                     <div className="flex justify-between w-full flex-col-reverse md:flex-row lg:flex-row xl:flex-row 2xl:flex-row">

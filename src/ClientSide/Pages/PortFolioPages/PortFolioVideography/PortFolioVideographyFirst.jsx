@@ -194,7 +194,7 @@ const PortFolioVideographyFirst = () => {
                 md:px-[50px] md:pb-[100px] md:pt-[40px]
                 px-[20px] pb-[60px] pt-[40px]
                 text-white">
-                    <p className="pageTitle">Home . Portfolio . Videography . Video</p>
+                    <p className="pageTitle"><Link to='/'>Home</Link> . Portfolio . Videography . Video</p>
                     <div className="flex ">
                         <div className="">
 

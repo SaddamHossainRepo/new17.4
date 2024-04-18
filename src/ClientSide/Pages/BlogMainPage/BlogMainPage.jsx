@@ -194,7 +194,7 @@ const BlogMainPage = () => {
                     2xl:gap-y-[50px] xl:gap-y-[40px] lg:gap-y-[30px] md:gap-y-[25px] 
                       justify-between ">
                     <Link >
-                        <div
+                        {/* <div
 
                         // 2xl:bg-[url('/largeBorder.png')] xl:bg-[url('/mdBlogBorder.png')] 
 
@@ -213,12 +213,12 @@ const BlogMainPage = () => {
                                 Video is an increasingly important tool for businesses looking to market themselves effectively in today digital world.. <span className="font-glaCailBold underline underline-offset-2">read more</span>
                             </p>
                            
-                        </div>
+                        </div> */}
                     </Link>
 
                     {/* card two */}
                     <Link >
-                    <div
+                    {/* <div
                             className="   2xl:w-[494px]    2xl:mr-[55px] 2xl:mb-0
                             xl:w-[368.06px]  xl:mb-0
                             mb-[40px]
@@ -235,12 +235,12 @@ const BlogMainPage = () => {
                                 Video is an increasingly important tool for businesses looking to market themselves effectively in today digital world.. <span className="font-glaCailBold underline underline-offset-2">read more</span>
                             </p>
                             
-                        </div>
+                        </div> */}
                     </Link>
 
                     {/* card three */}
                     <Link >
-                    <div
+                    {/* <div
                             className="   2xl:w-[494px]    2xl:mr-[55px] 2xl:mb-0
                             xl:w-[368.06px]  xl:mb-0 lg:mb-0 md:mb-0 mb-[40px]
 
@@ -255,7 +255,7 @@ const BlogMainPage = () => {
                                 Video is an increasingly important tool for businesses looking to market themselves effectively in today digital world.. <span className="font-glaCailBold underline underline-offset-2">read more</span>
                             </p>
                           
-                        </div>
+                        </div> */}
                     </Link>
 
                     <Link >
@@ -273,9 +273,10 @@ const BlogMainPage = () => {
                             <img className="blogImg" src={caseOne} alt="" />
 
                          
-                            <p className="blogHeading">The Importance of Using Video to Market Your Products or Services</p>
+                            <p className="blogHeading">Awad For Puntland</p>
                             <p className="blogPara">
-                                Video is an increasingly important tool for businesses looking to market themselves effectively in today digital world.. <span className="font-glaCailBold underline underline-offset-2">read more</span>
+                            Case Study For Amb. Ahmed Isse Awad, Puntland Presidential Candidate, 2024
+                            {/* <span className="font-glaCailBold underline underline-offset-2">read more</span> */}
                             </p>
                            
                         </div>
@@ -295,9 +296,10 @@ const BlogMainPage = () => {
                             <img className="blogImg" src={caseTwo} alt="" />
 
                           
-                            <p className="blogHeading">The Importance of Using Video to Market Your Products or Services</p>
+                            <p className="blogHeading">Jannah Fitwear</p>
                             <p className="blogPara">
-                                Video is an increasingly important tool for businesses looking to market themselves effectively in today digital world.. <span className="font-glaCailBold underline underline-offset-2">read more</span>
+                            Case Study For Jannah Fitwear, A Clothing Fitness Lifestyle Brand For Muslim Women
+                                {/* <span className="font-glaCailBold underline underline-offset-2">read more</span> */}
                             </p>
                             
                         </div>
@@ -315,9 +317,10 @@ const BlogMainPage = () => {
                             <img className="blogImg" src={blog3} alt="" />
 
                             
-                            <p className="blogHeading">The Importance of Using Video to Market Your Products or Services</p>
+                            <p className="blogHeading">The Importance of Using</p>
                             <p className="blogPara">
-                                Video is an increasingly important tool for businesses looking to market themselves effectively in today digital world.. <span className="font-glaCailBold underline underline-offset-2">read more</span>
+                                Video is an increasingly important tool for businesses looking to market themselves effectively in today digital world.
+                                 {/* <span className="font-glaCailBold underline underline-offset-2">read more</span> */}
                             </p>
                           
                         </div>

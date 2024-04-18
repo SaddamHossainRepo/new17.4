@@ -17,7 +17,7 @@ const Blog = () => {
             <div className="leftRight 2xl:pb-[200px] xl:pb-[180px] lg:pb-[100px] md:pb-[50px] pb-[10px] ">
                 <h2 className="titleSubHeading">Case Studies</h2>
                 <div className="md:flex lg:flex xl:flex 2xl:flex   justify-between ">
-                    <Link to='#' target="_blank">
+                    <Link>
                         <div
 
                         // 2xl:bg-[url('/largeBorder.png')] xl:bg-[url('/mdBlogBorder.png')] 
@@ -50,15 +50,16 @@ const Blog = () => {
                                 </div> */}
                             </div>
                             <p className="blogHeading">Awad For Puntland</p>
-                            {/* <p className="blogPara">
-                                Video is an increasingly important tool for businesses looking to market themselves effectively in today digital world.. <span className="font-glaCailBold underline underline-offset-2">read more</span>
-                            </p> */}
+                            <p className="blogPara">
+                            Case Study For Amb. Ahmed Isse Awad, Puntland Presidential Candidate, 2024
+                            {/* <span className="font-glaCailBold underline underline-offset-2">read more</span> */}
+                            </p>
                            
                         </div>
                     </Link>
 
                     {/* card two */}
-                    <Link to='#' target="_blank">
+                    <Link>
                     <div
                             className="   2xl:w-[494px]    2xl:mr-[55px] 2xl:mb-0
                             xl:w-[368.06px]  xl:mb-0
@@ -89,15 +90,16 @@ const Blog = () => {
                                 </div> */}
                             </div>
                             <p className="blogHeading">Jannah Fitwear</p>
-                            {/* <p className="blogPara">
-                                Video is an increasingly important tool for businesses looking to market themselves effectively in today digital world.. <span className="font-glaCailBold underline underline-offset-2">read more</span>
-                            </p> */}
+                            <p className="blogPara">
+                            Case Study For Jannah Fitwear, A Clothing Fitness Lifestyle Brand For Muslim Women
+                                 {/* <span className="font-glaCailBold underline underline-offset-2">read more</span> */}
+                            </p>
                             
                         </div>
                     </Link>
 
                     {/* card three */}
-                    <Link to='#' target="_blank">
+                    <Link>
                     <div
                             className="   2xl:w-[494px]    2xl:mr-[55px] 2xl:mb-0
                             xl:w-[368.06px]  xl:mb-0
@@ -125,10 +127,11 @@ const Blog = () => {
                                     <p><BsThreeDotsVertical className="text-white"></BsThreeDotsVertical></p>
                                 </div> */}
                             </div>
-                            <p className="blogHeading">The Importance of Using Video to Market Your Products or Services</p>
-                            {/* <p className="blogPara">
-                                Video is an increasingly important tool for businesses looking to market themselves effectively in today digital world.. <span className="font-glaCailBold underline underline-offset-2">read more</span>
-                            </p> */}
+                            <p className="blogHeading">The Importance of Using </p>
+                            <p className="blogPara">
+                                Video is an increasingly important tool for businesses looking to market themselves effectively in today digital world
+                                {/* <span className="font-glaCailBold underline underline-offset-2">read more</span> */}
+                            </p>
                           
                         </div>
                     </Link>

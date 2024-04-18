@@ -220,7 +220,7 @@ const Photography = () => {
             ">
                 <div className=" webDesignParent ">
 
-                    <p className="pageTitle">Home . Our Service . Photography</p>
+                    <p className="pageTitle"><Link to='/'>Home</Link> . Our Service . Photography</p>
                     <h2 className="titleSubHeading block md:hidden lg:hidden xl:hidden 2xl:hidden
                             ">Photography</h2>
                     <div className="flex justify-between w-full flex-col-reverse md:flex-row lg:flex-row xl:flex-row 2xl:flex-row">
@@ -388,29 +388,29 @@ const Photography = () => {
                             <Zoom>
                             <img className="WorkImgOne" src="/portfolioPhotography/portrait.jpg" alt="" />
                             </Zoom>
-                            <h4 className="ourWorksHead">Awad For Puntland</h4>
-                            <p className="ourWorksPara">Your brand is more than just your logo. It's the overall image and reputation of your business or organization.</p>
+                            <h4 className="ourWorksHead">Graduation Portrait</h4>
+                            {/* <p className="ourWorksPara">Your brand is more than just your logo. It's the overall image and reputation of your business or organization.</p> */}
                         </div>
                         <div>
                             <Zoom>
                             <img className="WorkImgTwo" src="/portfolioPhotography/family.jpg" alt="" />
                             </Zoom>
-                            <h4 className="ourWorksHead">Jannah Fitwear</h4>
-                            <p>Your brand is more than just your logo. It's the overall image and reputation of your business or organization.</p>
+                            <h4 className="ourWorksHead">Business Portrait</h4>
+                            {/* <p>Your brand is more than just your logo. It's the overall image and reputation of your business or organization.</p> */}
                         </div>
                         <div>
                             <Zoom>
                             <img className="WorkImgThree" src="/portfolioPhotography/portrait4.jpg" alt="" />
                             </Zoom>
-                            <h4 className="ourWorksHead">Friday Fashion</h4>
-                            <p>Your brand is more than just your logo. It's the overall image and reputation of your business or organization.</p>
+                            <h4 className="ourWorksHead">Corporate Portrait</h4>
+                            {/* <p>Your brand is more than just your logo. It's the overall image and reputation of your business or organization.</p> */}
                         </div>
                         <div>
                             <Zoom>
                             <img className="WorkImgOne" src="/portfolioPhotography/product3.jpg" alt="" />
                             </Zoom>
-                            <h4 className="ourWorksHead">Puntland</h4>
-                            <p>Your brand is more than just your logo. It's the overall image and reputation of your business or organization.</p>
+                            <h4 className="ourWorksHead">Sports Shoot</h4>
+                            {/* <p>Your brand is more than just your logo. It's the overall image and reputation of your business or organization.</p> */}
                         </div>
                     </div>
                 </div>

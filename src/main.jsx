@@ -29,9 +29,6 @@ import PortFolioVideoTeo from './ClientSide/Pages/PortFolioPages/PortFolioVideog
 import PortFolioVideoaJnnah from './ClientSide/Pages/PortFolioPages/PortFolioVideography/PortFolioVideoaJnnah.jsx';
 import PortFolioVideominneapolis from './ClientSide/Pages/PortFolioPages/PortFolioVideography/PortFolioVideominneapolis.jsx';
 import PortFolioVideoCOFMHD from './ClientSide/Pages/PortFolioPages/PortFolioVideography/PortFolioVideoCOFMHD.jsx';
-import SinglePortFolioPhotography from './ClientSide/Pages/PortFolioPages/PortFolioPhotography/SinglePortFolioPhotography.jsx';
-import InduvisualPhotographyTwo from './ClientSide/Pages/PortFolioPages/PortFolioPhotography/InduvisualPhotographyTwo.jsx';
-import InduvisualPhotographyThree from './ClientSide/Pages/PortFolioPages/PortFolioPhotography/InduvisualPhotographyThree.jsx';
 
 
 const router = createBrowserRouter([
@@ -142,22 +139,22 @@ const router = createBrowserRouter([
   {
     path : "/InduvisualBrandingThree",
     element : <InduvisualBrandingThree></InduvisualBrandingThree>
-  },
+  }
   // new added
   // individual photography
-  {
-    path: "/SinglePortFolioPhotography",
-    element : <SinglePortFolioPhotography/>
-  },
-  {
-    path : "/InduvisualPhotographyTwo",
-    element : <InduvisualPhotographyTwo/>
-  } ,
+  // {
+  //   path: "/SinglePortFolioPhotography",
+  //   element : <SinglePortFolioPhotography/>
+  // },
+  // {
+  //   path : "/InduvisualPhotographyTwo",
+  //   element : <InduvisualPhotographyTwo/>
+  // } ,
 
-  {
-    path : "/InduvisualPhotographyThree",
-    element : <InduvisualPhotographyThree/>
-  }
+  // {
+  //   path : "/InduvisualPhotographyThree",
+  //   element : <InduvisualPhotographyThree/>
+  // }
 
 ]);
 

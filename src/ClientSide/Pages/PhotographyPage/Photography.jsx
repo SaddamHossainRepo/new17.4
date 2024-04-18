@@ -386,28 +386,28 @@ const Photography = () => {
                     <div className="ourWorkParent">
                         <div>
                             <Zoom>
-                            <img className="WorkImgOne" src="/pOne.png" alt="" />
+                            <img className="WorkImgOne" src="/portfolioPhotography/portrait.jpg" alt="" />
                             </Zoom>
                             <h4 className="ourWorksHead">Awad For Puntland</h4>
                             <p className="ourWorksPara">Your brand is more than just your logo. It's the overall image and reputation of your business or organization.</p>
                         </div>
                         <div>
                             <Zoom>
-                            <img className="WorkImgTwo" src="/pFive.png" alt="" />
+                            <img className="WorkImgTwo" src="/portfolioPhotography/family.jpg" alt="" />
                             </Zoom>
                             <h4 className="ourWorksHead">Jannah Fitwear</h4>
                             <p>Your brand is more than just your logo. It's the overall image and reputation of your business or organization.</p>
                         </div>
                         <div>
                             <Zoom>
-                            <img className="WorkImgThree" src="/pTwo.png" alt="" />
+                            <img className="WorkImgThree" src="/portfolioPhotography/portrait4.jpg" alt="" />
                             </Zoom>
                             <h4 className="ourWorksHead">Friday Fashion</h4>
                             <p>Your brand is more than just your logo. It's the overall image and reputation of your business or organization.</p>
                         </div>
                         <div>
                             <Zoom>
-                            <img className="WorkImgOne" src="/pFour.png" alt="" />
+                            <img className="WorkImgOne" src="/portfolioPhotography/product3.jpg" alt="" />
                             </Zoom>
                             <h4 className="ourWorksHead">Puntland</h4>
                             <p>Your brand is more than just your logo. It's the overall image and reputation of your business or organization.</p>

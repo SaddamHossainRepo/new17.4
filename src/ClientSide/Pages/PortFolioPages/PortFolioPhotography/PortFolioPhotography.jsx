@@ -482,7 +482,7 @@ const PortFolioPhotography = () => {
                       <div className="PortraitImgOne ">
                         <Zoom>
                           <img
-                            className="h-full w-full object-contain"
+                            className="h-full w-full object-cover"
                             src="/portfolioPhotography/Artboard 4@4x.png"
                             alt=""
                           />
@@ -508,7 +508,7 @@ const PortFolioPhotography = () => {
                       <div className="PortraitImgOne ">
                         <Zoom>
                           <img
-                            className="h-full w-full object-scale-down"
+                            className="h-full w-full object-cover"
                             src="/portfolioPhotography/Artboard 1@4x.png"
                             alt=""
                           />

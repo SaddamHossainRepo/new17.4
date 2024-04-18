@@ -9,6 +9,7 @@ import instra from "/instra.png";
 import youtube from "/youtube.png";
 import { SlMenu } from "react-icons/sl";
 import { RxCross1 } from "react-icons/rx";
+import Zoom from "react-medium-image-zoom";
 
 import { Fade } from "react-awesome-reveal";
 import { useState } from "react";
@@ -280,86 +281,88 @@ const PortFolioPhotography = () => {
                            justify-between w-full"
                 >
                   {/* ==========card One ====== */}
-                  <Link to="/SinglePortFolioPhotography">
+
                   <div className="relative cursor-pointer">
                     <div className=" border-[4px] rounded-[15px]  relative overflow-hidden">
                       <div>
                         <div className="PortraitImgOne ">
-                          
+                          <Zoom>
                             <img
                               className="h-full w-full object-cover"
-                              src="/pOne.png"
+                              src="/portfolioPhotography/portrait.jpg"
                               alt=""
                             />
-                          
-
-                          
+                          </Zoom>
                         </div>
-                        <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
+                        {/* Overly */}
+                        {/* <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
                           <div className="overlay-content text-white flex flex-col items-center justify-center  rounded-lg">
                             <h5 className="overlayText">View</h5>
                             <p>
                               <FaArrowRightLong></FaArrowRightLong>
                             </p>
                           </div>
-                        </div>
+                        </div> */}
                       </div>
                       {/* <h4 className="potraitBottomText rounded-[15px] text-center">Lorem</h4> */}
                     </div>
                   </div>
-                  </Link>
 
                   {/* ==========card Two ====== */}
-                  <Link to="/InduvisualPhotographyTwo">
+
                   <div className="relative cursor-pointer">
                     <div className=" border-[4px] rounded-[15px]  relative overflow-hidden">
                       <div>
                         <div className="PortraitImgOne ">
-                          <img
-                            className="h-full w-full object-cover"
-                            src="/pFive.png"
-                            alt=""
-                          />
+                          <Zoom>
+                            <img
+                              className="h-full w-full object-cover"
+                              src="/portfolioPhotography/portrait4.jpg"
+                              alt=""
+                            />
+                          </Zoom>
                         </div>
-                        <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
+                        {/* overly */}
+                        {/* <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
                           <div className="overlay-content text-white flex flex-col items-center justify-center  rounded-lg">
                             <h5 className="overlayText">View</h5>
                             <p>
                               <FaArrowRightLong></FaArrowRightLong>
                             </p>
                           </div>
-                        </div>
+                        </div> */}
                       </div>
                       {/* <h4 className="potraitBottomText rounded-[15px] text-center">Lorem</h4> */}
                     </div>
                   </div>
-                  </Link>
 
                   {/* ==========card Three ====== */}
-                  <Link to="/InduvisualPhotographyThree">
+
                   <div className="relative cursor-pointer">
                     <div className=" border-[4px] rounded-[15px]  relative overflow-hidden">
                       <div>
                         <div className="PortraitImgOne ">
-                          <img
-                            className="h-full w-full object-cover"
-                            src="/pTwo.png"
-                            alt=""
-                          />
+                          <Zoom>
+                            <img
+                              className="h-full w-full object-cover"
+                              src="/portfolioPhotography/portrait3.jpg"
+                              alt=""
+                            />
+                          </Zoom>
                         </div>
-                        <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
+                        {/* overly */}
+                        {/* <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
                           <div className="overlay-content text-white flex flex-col items-center justify-center  rounded-lg">
                             <h5 className="overlayText">View</h5>
                             <p>
                               <FaArrowRightLong></FaArrowRightLong>
                             </p>
                           </div>
-                        </div>
+                        </div> */}
                       </div>
                       {/* <h4 className="potraitBottomText rounded-[15px] text-center">Lorem</h4> */}
                     </div>
                   </div>
-                  </Link>
                 </div>
 
                 <div>
@@ -375,20 +378,22 @@ const PortFolioPhotography = () => {
                   <div className=" border-[1px] rounded-[15px]  relative overflow-hidden">
                     <div>
                       <div className="PortraitImgOne ">
-                        <img
-                          className="h-full w-full object-cover"
-                          src="/pOne.png"
-                          alt=""
-                        />
+                        <Zoom>
+                          <img
+                            className="h-full w-full object-cover"
+                            src="/portfolioPhotography/portrait.jpg"
+                            alt=""
+                          />
+                        </Zoom>
                       </div>
-                      <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
+                      {/* <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
                         <div className="overlay-content text-white flex flex-col items-center justify-center  rounded-lg">
                           <h5 className="overlayText">View</h5>
                           <p>
                             <FaArrowRightLong></FaArrowRightLong>
                           </p>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                     {/* <h4 className="potraitBottomText rounded-[15px] text-center">Lorem</h4> */}
                   </div>
@@ -399,20 +404,22 @@ const PortFolioPhotography = () => {
                   <div className=" border-[1px] rounded-[15px]  relative overflow-hidden">
                     <div>
                       <div className="PortraitImgOne ">
-                        <img
-                          className="h-full w-full object-cover"
-                          src="/pFive.png"
-                          alt=""
-                        />
+                        <Zoom>
+                          <img
+                            className="h-full w-full object-cover"
+                            src="/portfolioPhotography/portrait4.jpg"
+                            alt=""
+                          />
+                        </Zoom>
                       </div>
-                      <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
+                      {/* <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
                         <div className="overlay-content text-white flex flex-col items-center justify-center  rounded-lg">
                           <h5 className="overlayText">View</h5>
                           <p>
                             <FaArrowRightLong></FaArrowRightLong>
                           </p>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                     {/* <h4 className="potraitBottomText rounded-[15px] text-center">Lorem</h4> */}
                   </div>
@@ -422,20 +429,22 @@ const PortFolioPhotography = () => {
                   <div className=" border-[1px] rounded-[15px]  relative overflow-hidden">
                     <div>
                       <div className="PortraitImgOne ">
-                        <img
-                          className="h-full w-full object-cover"
-                          src="/pTwo.png"
-                          alt=""
-                        />
+                        <Zoom>
+                          <img
+                            className="h-full w-full object-cover"
+                            src="/portfolioPhotography/portrait3.jpg"
+                            alt=""
+                          />
+                        </Zoom>
                       </div>
-                      <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
+                      {/* <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
                         <div className="overlay-content text-white flex flex-col items-center justify-center  rounded-lg">
                           <h5 className="overlayText">View</h5>
                           <p>
                             <FaArrowRightLong></FaArrowRightLong>
                           </p>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                     {/* <h4 className="potraitBottomText rounded-[15px] text-center">Lorem</h4> */}
                   </div>
@@ -471,20 +480,22 @@ const PortFolioPhotography = () => {
                   <div className=" border-[4px] rounded-[15px]  relative overflow-hidden">
                     <div>
                       <div className="PortraitImgOne ">
-                        <img
-                          className="h-full w-full object-cover"
-                          src="/pOne.png"
-                          alt=""
-                        />
+                        <Zoom>
+                          <img
+                            className="h-full w-full object-contain"
+                            src="/portfolioPhotography/Artboard 4@4x.png"
+                            alt=""
+                          />
+                        </Zoom>
                       </div>
-                      <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
+                      {/* <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
                         <div className="overlay-content text-white flex flex-col items-center justify-center  rounded-lg">
                           <h5 className="overlayText">View</h5>
                           <p>
                             <FaArrowRightLong></FaArrowRightLong>
                           </p>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                     {/* <h4 className="potraitBottomText rounded-[15px] text-center">Lorem</h4> */}
                   </div>
@@ -495,20 +506,22 @@ const PortFolioPhotography = () => {
                   <div className=" border-[4px] rounded-[15px]  relative overflow-hidden">
                     <div>
                       <div className="PortraitImgOne ">
-                        <img
-                          className="h-full w-full object-cover"
-                          src="/pFive.png"
-                          alt=""
-                        />
+                        <Zoom>
+                          <img
+                            className="h-full w-full object-scale-down"
+                            src="/portfolioPhotography/Artboard 1@4x.png"
+                            alt=""
+                          />
+                        </Zoom>
                       </div>
-                      <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
+                      {/* <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
                         <div className="overlay-content text-white flex flex-col items-center justify-center  rounded-lg">
                           <h5 className="overlayText">View</h5>
                           <p>
                             <FaArrowRightLong></FaArrowRightLong>
                           </p>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                     {/* <h4 className="potraitBottomText rounded-[15px] text-center">Lorem</h4> */}
                   </div>
@@ -519,20 +532,22 @@ const PortFolioPhotography = () => {
                   <div className=" border-[4px] rounded-[15px]  relative overflow-hidden">
                     <div>
                       <div className="PortraitImgOne ">
-                        <img
-                          className="h-full w-full object-cover"
-                          src="/pTwo.png"
-                          alt=""
-                        />
+                        <Zoom>
+                          <img
+                            className="h-full w-full object-cover"
+                            src="/portfolioPhotography/product3.jpg"
+                            alt=""
+                          />
+                        </Zoom>
                       </div>
-                      <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
+                      {/* <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
                         <div className="overlay-content text-white flex flex-col items-center justify-center  rounded-lg">
                           <h5 className="overlayText">View</h5>
                           <p>
                             <FaArrowRightLong></FaArrowRightLong>
                           </p>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                     {/* <h4 className="potraitBottomText rounded-[15px] text-center">Lorem</h4> */}
                   </div>
@@ -552,20 +567,22 @@ const PortFolioPhotography = () => {
                 <div className=" border-[1px] rounded-[15px]  relative overflow-hidden">
                   <div>
                     <div className="PortraitImgOne ">
-                      <img
-                        className="h-full w-full object-cover"
-                        src="/pOne.png"
-                        alt=""
-                      />
+                      <Zoom>
+                        <img
+                          className="h-full w-full object-cover"
+                          src="/portfolioPhotography/Artboard 4@4x.png"
+                          alt=""
+                        />
+                      </Zoom>
                     </div>
-                    <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
+                    {/* <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
                       <div className="overlay-content text-white flex flex-col items-center justify-center  rounded-lg">
                         <h5 className="overlayText">View</h5>
                         <p>
                           <FaArrowRightLong></FaArrowRightLong>
                         </p>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                   {/* <h4 className="potraitBottomText rounded-[15px] text-center">Lorem</h4> */}
                 </div>
@@ -576,20 +593,22 @@ const PortFolioPhotography = () => {
                 <div className=" border-[1px] rounded-[15px]  relative overflow-hidden">
                   <div>
                     <div className="PortraitImgOne ">
-                      <img
-                        className="h-full w-full object-cover"
-                        src="/pFive.png"
-                        alt=""
-                      />
+                      <Zoom>
+                        <img
+                          className="h-full w-full object-cover"
+                          src="/portfolioPhotography/Artboard 1@4x.png"
+                          alt=""
+                        />
+                      </Zoom>
                     </div>
-                    <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
+                    {/* <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
                       <div className="overlay-content text-white flex flex-col items-center justify-center  rounded-lg">
                         <h5 className="overlayText">View</h5>
                         <p>
                           <FaArrowRightLong></FaArrowRightLong>
                         </p>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                   {/* <h4 className="potraitBottomText rounded-[15px] text-center">Lorem</h4> */}
                 </div>
@@ -599,20 +618,22 @@ const PortFolioPhotography = () => {
                 <div className=" border-[1px] rounded-[15px]  relative overflow-hidden">
                   <div>
                     <div className="PortraitImgOne ">
-                      <img
-                        className="h-full w-full object-cover"
-                        src="/pTwo.png"
-                        alt=""
-                      />
+                      <Zoom>
+                        <img
+                          className="h-full w-full object-cover"
+                          src="/portfolioPhotography/product3.jpg"
+                          alt=""
+                        />
+                      </Zoom>
                     </div>
-                    <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
+                    {/* <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
                       <div className="overlay-content text-white flex flex-col items-center justify-center  rounded-lg">
                         <h5 className="overlayText">View</h5>
                         <p>
                           <FaArrowRightLong></FaArrowRightLong>
                         </p>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                   {/* <h4 className="potraitBottomText rounded-[15px] text-center">Lorem</h4> */}
                 </div>
@@ -647,20 +668,22 @@ const PortFolioPhotography = () => {
                   <div className=" border-[4px] rounded-[15px]  relative overflow-hidden">
                     <div>
                       <div className="PortraitImgOne ">
-                        <img
-                          className="h-full w-full object-cover"
-                          src="/pOne.png"
-                          alt=""
-                        />
+                        <Zoom>
+                          <img
+                            className="h-full w-full object-cover"
+                            src="/portfolioPhotography/family.jpg"
+                            alt=""
+                          />
+                        </Zoom>
                       </div>
-                      <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
+                      {/* <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
                         <div className="overlay-content text-white flex flex-col items-center justify-center  rounded-lg">
                           <h5 className="overlayText">View</h5>
                           <p>
                             <FaArrowRightLong></FaArrowRightLong>
                           </p>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                     {/* <h4 className="potraitBottomText rounded-[15px] text-center">Lorem</h4> */}
                   </div>
@@ -671,20 +694,22 @@ const PortFolioPhotography = () => {
                   <div className=" border-[4px] rounded-[15px]  relative overflow-hidden">
                     <div>
                       <div className="PortraitImgOne ">
-                        <img
-                          className="h-full w-full object-cover"
-                          src="/pFive.png"
-                          alt=""
-                        />
+                        <Zoom>
+                          <img
+                            className="h-full w-full object-cover"
+                            src="/portfolioPhotography/family2.png"
+                            alt=""
+                          />
+                        </Zoom>
                       </div>
-                      <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
+                      {/* <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
                         <div className="overlay-content text-white flex flex-col items-center justify-center  rounded-lg">
                           <h5 className="overlayText">View</h5>
                           <p>
                             <FaArrowRightLong></FaArrowRightLong>
                           </p>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                     {/* <h4 className="potraitBottomText rounded-[15px] text-center">Lorem</h4> */}
                   </div>
@@ -695,20 +720,22 @@ const PortFolioPhotography = () => {
                   <div className=" border-[4px] rounded-[15px]  relative overflow-hidden">
                     <div>
                       <div className="PortraitImgOne ">
-                        <img
-                          className="h-full w-full object-cover"
-                          src="/pTwo.png"
-                          alt=""
-                        />
+                        <Zoom>
+                          <img
+                            className="h-full w-full object-cover"
+                            src="/portfolioPhotography/family3.png"
+                            alt=""
+                          />
+                        </Zoom>
                       </div>
-                      <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
+                      {/* <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
                         <div className="overlay-content text-white flex flex-col items-center justify-center  rounded-lg">
                           <h5 className="overlayText">View</h5>
                           <p>
                             <FaArrowRightLong></FaArrowRightLong>
                           </p>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                     {/* <h4 className="potraitBottomText rounded-[15px] text-center">Lorem</h4> */}
                   </div>
@@ -728,20 +755,22 @@ const PortFolioPhotography = () => {
                 <div className=" border-[1px] rounded-[15px]  relative overflow-hidden">
                   <div>
                     <div className="PortraitImgOne ">
-                      <img
-                        className="h-full w-full object-cover"
-                        src="/pOne.png"
-                        alt=""
-                      />
+                      <Zoom>
+                        <img
+                          className="h-full w-full object-cover"
+                          src="/portfolioPhotography/family.jpg"
+                          alt=""
+                        />
+                      </Zoom>
                     </div>
-                    <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
+                    {/* <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
                       <div className="overlay-content text-white flex flex-col items-center justify-center  rounded-lg">
                         <h5 className="overlayText">View</h5>
                         <p>
                           <FaArrowRightLong></FaArrowRightLong>
                         </p>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                   {/* <h4 className="potraitBottomText rounded-[15px] text-center">Lorem</h4> */}
                 </div>
@@ -752,20 +781,22 @@ const PortFolioPhotography = () => {
                 <div className=" border-[1px] rounded-[15px]  relative overflow-hidden">
                   <div>
                     <div className="PortraitImgOne ">
-                      <img
-                        className="h-full w-full object-cover"
-                        src="/pFive.png"
-                        alt=""
-                      />
+                      <Zoom>
+                        <img
+                          className="h-full w-full object-cover"
+                          src="/portfolioPhotography/family2.png"
+                          alt=""
+                        />
+                      </Zoom>
                     </div>
-                    <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
+                    {/* <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
                       <div className="overlay-content text-white flex flex-col items-center justify-center  rounded-lg">
                         <h5 className="overlayText">View</h5>
                         <p>
                           <FaArrowRightLong></FaArrowRightLong>
                         </p>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                   {/* <h4 className="potraitBottomText rounded-[15px] text-center">Lorem</h4> */}
                 </div>
@@ -775,20 +806,22 @@ const PortFolioPhotography = () => {
                 <div className=" border-[1px] rounded-[15px]  relative overflow-hidden">
                   <div>
                     <div className="PortraitImgOne ">
-                      <img
-                        className="h-full w-full object-cover"
-                        src="/pTwo.png"
-                        alt=""
-                      />
+                      <Zoom>
+                        <img
+                          className="h-full w-full object-cover"
+                          src="/portfolioPhotography/family3.png"
+                          alt=""
+                        />
+                      </Zoom>
                     </div>
-                    <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
+                    {/* <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
                       <div className="overlay-content text-white flex flex-col items-center justify-center  rounded-lg">
                         <h5 className="overlayText">View</h5>
                         <p>
                           <FaArrowRightLong></FaArrowRightLong>
                         </p>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                   {/* <h4 className="potraitBottomText rounded-[15px] text-center">Lorem</h4> */}
                 </div>

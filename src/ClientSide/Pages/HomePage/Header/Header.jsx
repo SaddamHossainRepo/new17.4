@@ -96,7 +96,7 @@ const Header = () => {
                     {/*-------------- Desktop Header Menu --------------- */}
                     <div className='hidden md:block lg:block xl:block 2xl:block'>
                         <ul className="headMenuLeftRight  z-auto  ">
-                            <ScrollLink to="/"> <li className="desktopMenu   ">HOME</li> </ScrollLink>
+                            <ScrollLink to="/"> <li className="desktopMenu">HOME</li> </ScrollLink>
                             <ScrollLink  to="OurServices" smooth={true} duration={500} offset={70} > <li className="desktopMenu">SERVICES</li> </ScrollLink>
                             <ScrollLink to="aboutUsSection" smooth={true} duration={700} offset={70} > <li className=" desktopMenu">ABOUT</li> </ScrollLink>
                             <ScrollLink to="portfolio" smooth={true} duration={900} offset={150}> <li className="desktopMenu ">PORTFOLIO</li> </ScrollLink>
@@ -126,20 +126,20 @@ const Header = () => {
                                             <ScrollLink to="/">
                                                 <li>HOME</li>
                                             </ScrollLink>
-                                            <ScrollLink to="/">
+                                            <ScrollLink to="OurServices">
                                                 <li >SERVICES</li>
                                             </ScrollLink>
-                                            <ScrollLink to="/" >
+                                            <ScrollLink to="aboutUsSection" >
                                                 <li >ABOUT</li>
                                             </ScrollLink>
-                                            <ScrollLink to="/">
+                                            <ScrollLink to="portfolio">
                                                 <li >PORTFOLIO</li>
                                             </ScrollLink>
-                                            <RouterLink to="/">
+                                            <RouterLink to="/blogs">
                                                 <li >BLOG</li>
                                             </RouterLink>
-                                            <ScrollLink to="/">
-                                                <li className="cursor-pointer"> CONTACT</li>
+                                            <ScrollLink to="contact">
+                                                <li className="cursor-pointer" onClick={contactBtn}> CONTACT</li>
                                             </ScrollLink>
                                         </Fade>
                                     </ul>

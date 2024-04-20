@@ -196,7 +196,7 @@ const PortFolioVideography = () => {
                 md:px-[50px] md:pt-[40px] md:pb-[100px]
                 px-[20px] pt-[40px] pb-[60px]
                  text-white">
-                    <p className="pageTitle"><Link to='/'>Home</Link> . Portfolio . Videography</p>
+                    <p className="pageTitle"><Link to='/'>Home</Link> . <Link to='/'>Portfolio</Link> . Videography</p>
                     <div className="md:flex lg:flex xl:flex 2xl:flex justify-between w-full ">
                         <div className="2xl:w-[776px] xl:w-[578px] lg:w-[48%] md:w-[48%]">
                             <h2 className="titleSubHeading ">Videography</h2>
@@ -208,6 +208,7 @@ const PortFolioVideography = () => {
                             text-[14px] leading-[16.18px] pb-[20px]
                             text-white font-glacialBase text-justify ">Video is a powerful medium for conveying your message and engaging your audience. Our videographers can help you create professional-quality video content for your website, social media, or promotional materials. From concept development to post-production, we handle every aspect of the video production process.</p>
                             {/* ---------------left one card --------------- */}
+                            <Link to="/PortFolioVideoGraphyFirst">
                             <div className=" 2xl:mb-[68px] 2xl:w-[776px] 2xl:h-[675px]  
                             xl:w-full xl:h-[502px] xl:mb-[50px] lg:mb-[40px] md:mb-[25px] mb-[20px]
 
@@ -236,7 +237,10 @@ const PortFolioVideography = () => {
                                     </div>
                                 </div>
                             </div>
+                            </Link>
+                            
                             {/* ---------------left two card --------------- */}
+                            <Link to="/PortFolioVideographySBD">
                             <div className=" 2xl:mb-[68px] 2xl:w-[776px] 2xl:h-[675px]  
                             xl:w-full xl:h-[502px] xl:mb-[50px] lg:mb-[40px] md:mb-[25px] mb-[20px]
 
@@ -264,8 +268,11 @@ const PortFolioVideography = () => {
                                     </div>
                                 </div>
                             </div>
+                            </Link>
+                            
                             
                             {/* ---------------left three card --------------- */}
+                            <Link to="/PortFolioVideoTeo">
                             <div className=" 2xl:mb-[68px] 2xl:w-[776px] 2xl:h-[675px]  
                             xl:w-full xl:h-[502px] mb-[20px] md:mb-0 lg:mb-0 xl:mb-0 2xl:mb-0
 
@@ -293,12 +300,15 @@ const PortFolioVideography = () => {
                                     </div>
                                 </div>
                             </div>
+                            </Link>
                         </div>
 
 
                         {/* ----------------------right Side content --------------------------------- */}
+                        
                         <div className="2xl:ml-[68px] lg:w-[48%] md:w-[48%]">
-                        <div className=" 2xl:mb-[68px] 2xl:w-[776px] 2xl:h-[1053px]  
+                            <Link to="/PortFolioVideoaJnnah">
+                            <div className=" 2xl:mb-[68px] 2xl:w-[776px] 2xl:h-[1053px]  
                             xl:w-[578px] xl:h-[814px] xl:mb-[50px] lg:mb-[40px] md:mb-[25px] mb-[20px]
 
                             relative group">
@@ -325,9 +335,12 @@ const PortFolioVideography = () => {
                                     </div>
                                 </div>
                             </div>
+                            </Link>
+                        
 
                             {/* ----------------Right card two -------------------- */}
                            
+                            <Link to="/PortFolioVideominneapolis">
                             <div className=" 2xl:mb-[68px] 2xl:w-[776px] 2xl:h-[675px]  
                             xl:w-[578px] xl:h-[502px] xl:mb-[50px] lg:mb-[40px] md:mb-[25px] mb-[20px]
 
@@ -355,9 +368,11 @@ const PortFolioVideography = () => {
                                     </div>
                                 </div>
                             </div>
+                            </Link>
 
 
                             {/* ---------------right Card three */}
+                            <Link to="/PortFolioVideoCOFMHD">
                             <div className=" 2xl:mb-[68px] 2xl:w-[776px] 2xl:h-[496px]  
                             xl:w-[578px] xl:h-[369px] 
                             md:h-[260px]
@@ -386,6 +401,7 @@ const PortFolioVideography = () => {
                                     </div>
                                 </div>
                             </div>
+                            </Link>
                          
                         </div>
                     </div>

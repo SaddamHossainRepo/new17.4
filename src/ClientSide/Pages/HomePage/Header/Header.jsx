@@ -203,10 +203,10 @@ const Header = () => {
                         className="2xl:w-auto xl:w-[650px] w-[250px] h-auto md:w-[600px] md:h-auto lg:w-[650px] lg:h-auto 2xl:h-[90px] xl:h-auto mx-auto object-cover"
                         src="/brandLogo.png"
                         alt="brand Logo" />
-                    <p className='text-center heroSectionPara'>We combine artistry with strategy, creating digital solutions <br /> that are not only beautiful but also effective.</p>
+                    <p className='text-center heroSectionPara'>We combine artistry with strategy, creating digital solutions</p>
 
                     {/* =====for mobile ======= */}
-                    <p className='text-center heroSectionParaMobile'>We combine artistry with strategy, creating digital solutions  that are not only beautiful but also effective.</p>
+                    <p className='text-center heroSectionParaMobile'>We combine artistry with strategy, creating digital solutions</p>
                     <button className="headerHireBtn" onClick={revealPrice}>Hire Us</button>
                 </div>
             </div>

@@ -20,7 +20,7 @@ const BlogPage = () => {
             </div>
             <div className="bg-[#111111] 2xl:mt-[-100px] 2xl:rounded-t-[50px]">
                 <div className=" 2xl:px-[150px] 2xl:pt-[50px] 2xl:pb-[200px]  text-white">
-                    <p className="pageTitle"><Link to='/'>Home</Link> . Portfolio . Blog</p>
+                    <p className="pageTitle"><Link to='/'>Home</Link> . <Link to='/'>Portfolio</Link> . Blog</p>
                     <div className="flex ">
                         <div className="2xl:w-[776px]">
                             <h2 className="2xl:text-[25px] 2xl:leading-[30px] font-glaCailBold 2xl:pb-[25px] text-[#FF0000]">Blog</h2>

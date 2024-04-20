@@ -20,7 +20,7 @@ const OurServices = () => {
 
     {
       heading: "Branding",
-      description: "We create memorable brand identities that resonate.",
+      // description: "We create memorable brand identities that resonate.",
       imgSrc: "/brandingOurService.jpg",
       icon: <IoStatsChartSharp className="2xl:text-[27px] xl:text-[22px]" />,
       route: "/branding"
@@ -28,7 +28,7 @@ const OurServices = () => {
 
     {
       heading: "Website",
-      description: "We specialize in building user-friendly websites that captivate.",
+      // description: "We specialize in building user-friendly websites that captivate.",
       imgSrc: "/rondo.jpg",
       icon: <FaCode className="2xl:text-[27px] xl:text-[22px]" />,
       route: "/webDesign"
@@ -37,7 +37,7 @@ const OurServices = () => {
 
     {
       heading: "Videography",
-      description: "For over a decade, we've been dedicated to delivering captivating full-service videography, telling your story with style.",
+      // description: "For over a decade, we've been dedicated to delivering captivating full-service videography, telling your story with style.",
       imgSrc: "/projectOne.jpeg",
       icon: <ImVideoCamera className="2xl:text-[27px] xl:text-[22px]" />,
       route: "/videoGraphy"
@@ -46,7 +46,7 @@ const OurServices = () => {
 
     {
       heading: "Photography",
-      description: "For over a decade, we've remained steadfast in our commitment to delivering breathtaking visuals.",
+      // description: "For over a decade, we've remained steadfast in our commitment to delivering breathtaking visuals.",
       imgSrc: "/pFive.png",
       icon: <FaCamera className="2xl:text-[27px] xl:text-[22px]" />,
       route: "/photography"
@@ -94,22 +94,23 @@ const OurServices = () => {
 
           {/* ============ For large screen  ============ */}
           <div className="serviceInfoParent">
-            <h2 className="hidden  servicesHeading xl:mb-[40px] 2xl:mb-[50px] mb-[20px] md:mb-[40px]  xl:block 2xl:block">Our Services</h2>
+            <h2 className="hidden  servicesHeading xl:mb-[44px] 2xl:mb-[60px] mb-[20px] md:mb-[40px]  xl:block 2xl:block">Our Services</h2>
 
             <div className="grid  gap-[10px] mt-[20px] 
         2xl:grid 2xl:grid-cols-1 2xl:gap-0 2xl:mt-0
         xl:grid xl:grid-cols-1 xl:gap-0 xl:mt-0
-        lg:grid lg:grid-cols-1 lg:gap-[20px] lg:mt-0
-        md:grid md:grid-cols-1 md:gap-[15px] md:mt-0
+        lg:grid lg:grid-cols-1 lg:gap-[20px] lg:mt-[70px]
+        md:grid md:grid-cols-1 md:gap-[15px] md:mt-[100px]
+        
 
         ">
               {serviceCards.map((card, index) => (
                 <Link key={index} to={card.route}>
-                  <div key={index} className={`serviceCardParent cursor-pointer  xl:mb-[15px] 2xl:mb-[25px] ${activeCardIndex === index ? 'bg-[#d7d7d7] active' : ''}`}>
+                  <div key={index} className={`serviceCardParent cursor-pointer  xl:mb-[15px] 2xl:mb-[30px] ${activeCardIndex === index ? 'bg-[#d7d7d7] active' : ''}`}>
                     <div className="flex  justify-between items-center">
                       <div className={`servicesSubParent flex items-center  ${activeCardIndex === index ? 'text-[#252525]' : 'text-white'}`}>
                         <span >{card.icon}</span>
-                        <span className="2xl:pl-[20.64px] xl:pl-[16px] pl-[8px] cardheadingText">
+                        <span className="2xl:pl-[20.64px]  xl:pl-[16px] pl-[8px] cardheadingText">
                           {card.heading}
                         </span>
                       </div>
@@ -119,7 +120,7 @@ const OurServices = () => {
                         </Link>
                       </div>
                     </div>
-                    <p className={`servicesPara ${activeCardIndex === index ? 'text-[#252525]' : 'text-white'}`}>{card.description}</p>
+                    {/* <p className={`servicesPara ${activeCardIndex === index ? 'text-[#252525]' : 'text-white'}`}>{card.description}</p> */}
                   </div>
                 </Link>
               ))}

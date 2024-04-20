@@ -9,7 +9,7 @@ import headerLogo from "/headerLogo.png"
 
 import fb from "/fb.png";
 import instra from "/instra.png";
-import youtube from "/youtube.png"
+import youtube from "/youtube.png";
 import { SlMenu } from "react-icons/sl";
 import { RxCross1 } from "react-icons/rx";
 
@@ -198,7 +198,7 @@ const BrandingPage = () => {
             lg:mt-[-40px] lg:rounded-t-[40px]
             ">
                 <div className=" brandigParent ">
-                    <p className="pageTitle"><Link to='/'>Home</Link> . Our Service . Branding</p>
+                    <p className="pageTitle"><Link to='/'>Home</Link> . <Link to='/'>Our Service</Link> . Branding</p>
                     <h2 className="titleSubHeading block md:hidden lg:hidden xl:hidden 2xl:hidden
                             ">Branding</h2>
                     <div className="flex justify-between w-full flex-col-reverse md:flex-row lg:flex-row xl:flex-row 2xl:flex-row">
@@ -240,7 +240,7 @@ const BrandingPage = () => {
                     <h4 className="titleSubHeading">Our Process</h4>
                     <div className="processParent">
 
-                        <Fade delay={500} duration={500}>
+                        <Fade delay={300} duration={500}>
                             <div className="brandingNumberParent">
                                 <div >
                                     <div className="brandingNumber" >01</div>
@@ -252,7 +252,7 @@ const BrandingPage = () => {
                             </div>
                         </Fade>
 
-                        <Fade delay={800} duration={500} >
+                        <Fade delay={700} duration={700} >
                             <div className="brandingNumberParent">
                                 <div >
                                     <div className="brandingNumber" >02</div>
@@ -265,7 +265,7 @@ const BrandingPage = () => {
 
                         </Fade>
 
-                        <Fade delay={1100} duration={500}>
+                        <Fade delay={900} duration={900}>
                             <div className="brandingNumberParent">
                                 <div >
                                     <div className="brandingNumber" >03</div>
@@ -276,7 +276,7 @@ const BrandingPage = () => {
                                 </div>
                             </div>
                         </Fade>
-                        <Fade delay={1500} duration={500}>
+                        <Fade delay={1100} duration={1000}>
 
                             <div className="brandingNumberParent">
                                 <div >

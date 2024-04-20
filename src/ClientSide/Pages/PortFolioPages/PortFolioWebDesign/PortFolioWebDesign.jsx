@@ -225,7 +225,7 @@ const PortFolioWebDesign = () => {
             lg:mt-[-50px] lg:rounded-t-[50px]
             ">
                 <div className=" brandigParent ">
-                    <p className="pageTitle"><Link to='/'>Home</Link> . Portfolio . Website design</p>
+                    <p className="pageTitle"><Link to='/'>Home</Link> . <Link to='/'>Portfolio</Link> . Website design</p>
 
                     {/* ==========HealthCare sections  for large and mobile======= */}
                     <div className=" text-white">
@@ -748,7 +748,7 @@ const PortFolioWebDesign = () => {
                             md:max-w-[400px] md:mr-[80px]
                         ">
                                         <h2 className="ctaHeading">Ready to Bring Your Vision to Life?</h2>
-                                        <p className="ctaPara">Don't settle for mediocre video content. Partner with Fowzi Media and unleash the power of professional videography to elevate your brand. Schedule a consultation today and let's create something extraordinary together.</p>
+                                        {/* <p className="ctaPara">Don't settle for mediocre video content. Partner with Fowzi Media and unleash the power of professional videography to elevate your brand. Schedule a consultation today and let's create something extraordinary together.</p> */}
                                     </div>
                                     <div className="ctaBtnParent">
                                         <button className="ctaBtn" onClick={revealPrice}>Reveal Price</button>

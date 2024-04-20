@@ -218,7 +218,7 @@ const WebDesignPage = () => {
             ">
                 <div className=" webDesignParent ">
 
-                    <p className="pageTitle"><Link to='/'>Home</Link> . Our Service . Website Development</p>
+                    <p className="pageTitle"><Link to='/'>Home</Link> . <Link to='/'>Our Service</Link> . Website Development</p>
                     <h2 className="titleSubHeading block md:hidden lg:hidden xl:hidden 2xl:hidden
                             ">Website Development</h2>
                     <div className="flex justify-between w-full flex-col-reverse md:flex-row lg:flex-row xl:flex-row 2xl:flex-row">
@@ -446,7 +446,7 @@ const WebDesignPage = () => {
                             md:max-w-[400px] md:mr-[80px]
                         ">
                                         <h2 className="ctaHeading">Ready to Transform Your Online Presence?</h2>
-                                        <p className="ctaPara">Don't let your website hold you back. Partner with Fowzi Media and unleash the full potential of your online brand. Schedule a consultation today and let's create a website that sets you apart from the competition.</p>
+                                        {/* <p className="ctaPara">Don't let your website hold you back. Partner with Fowzi Media and unleash the full potential of your online brand. Schedule a consultation today and let's create a website that sets you apart from the competition.</p> */}
                                     </div>
                                     <div className="ctaBtnParent">
                                         <button className="ctaBtn" onClick={revealPrice}>Reveal Price</button>

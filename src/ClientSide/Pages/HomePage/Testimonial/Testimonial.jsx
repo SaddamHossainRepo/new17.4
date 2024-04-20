@@ -10,6 +10,7 @@ import line from "/line.png"
 import { FaArrowRightLong } from "react-icons/fa6";
 import { FaArrowLeftLong } from "react-icons/fa6";
 import { useState } from 'react';
+import Marquee from 'react-fast-marquee';
 
 
 
@@ -50,10 +51,45 @@ const Testimonial = () => {
     return (
         <div className="leftRight">
             <h1 className="titleSubHeading">Testimonial</h1>
-
+            {/* <Marquee {...settings} autoFill={true} pauseOnHover={true}> */}
             <Slider {...settings}>
+                {/* testimonial 1 */}
                 <div >
                     <div className='relative flex flex-col xl:justify-between xl:flex-row 2xl:flex-row 2xl:justify-between '>
+                        <div className=''>
+                            <div className='flex items-center border-red-600 '>
+                                <div >
+                                    <img
+                                        src={pic3}
+                                        className="block 2xl:w-[51px] 2xl:h-[51px] xl:w-[42px] xl:h-[42px] w-[30px]"
+                                        alt="Wild Landscape"
+                                    />
+                                </div>
+                                <div className='text-white 2xl:ml-[20px] xl:ml-[15px] ml-[5px]'>
+                                    <h3 className='testHeading'>Rondo Services</h3>
+                                    <div className='flex items-center'>
+                                        {/* <h4 className='testSubHeading'>Graphics Designer</h4> */}
+                                        {/* <h3 className='2xl:ml-[10px] 2xl:mt-[10px] xl:ml-[5px] xl:mt-[5px] ml-1 mt-1'><img className='h-[1px] xl:w-[25px] 2xl:w-[34px] w-[10px]' src={line} alt="" /></h3> */}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='2xl:w-[1180px] xl:w-[781px] 2xl:ml-[200px] '>
+                            <p className="text-white 2xl:text-[30px] 2xl:leading-[51px] 2xl:mt-0
+                            xl:text-[25px] xl:leading-[38.75px] xl:mt-0
+                            lg:text-[25px] lg:leading-[30px] 
+                            md:text-[20px] md:leading-[25px] 
+                            text-[15px] leading-[25.5px] mt-[20px] 
+                            font-glacialBase  xl:bg-[url('/testimonialBg.png')] 2xl:bg-[url('/testimonialBg.png')] bg-[url('/testimonialBgMobile.png')]   bg-no-repeat bg-left-top">
+                               The Fowzi Media team has been excellent to work with. From start to finish, the communication was on point. The design was done exceptionally well per our requirements and was delivered to all locations on time. We highly recommend this company for all digital and web design needs!
+                            </p>
+                            {/* <p className="pt-[5px] text-[#FF0101]" onClick={()=>showBtn()}>{show? "Show More" : "Show Less"}</p> */}
+                        </div>
+                    </div>
+                </div>
+                {/* testimonial 2 */}
+                <div >
+                    <div className='relative flex flex-col xl:justify-between xl:flex-row 2xl:flex-row 2xl:justify-between'>
                         <div className='  '>
                             <div className='flex items-center '>
                                 <div>
@@ -73,9 +109,11 @@ const Testimonial = () => {
                             </div>
                         </div>
                         <div className='2xl:w-[1180px] xl:w-[781px] 2xl:ml-[200px] '>
-                            <p className="text-white 2xl:text-[25px] 2xl:leading-[37.5px] 2xl:mt-0
-                            xl:text-[18px] xl:leading-[25px] xl:mt-0
-                            text-[14px] mt-[20px] 
+                            <p className="text-white 2xl:text-[30px] 2xl:leading-[51px] 2xl:mt-0
+                            xl:text-[25px] xl:leading-[38.75px]
+                            lg:text-[25px] lg:leading-[30px] 
+                            md:text-[20px] md:leading-[25px] 
+                            text-[15px] leading-[25.5px] mt-[20px] 
                             font-glacialBase  xl:bg-[url('/testimonialBg.png')] 2xl:bg-[url('/testimonialBg.png')] bg-[url('/testimonialBgMobile.png')]   bg-no-repeat bg-left-top">
                                Very professional and reliable. Was very satisfied with the job they’ve done. They also able to provide quality service on time. Kudos folks.
                             </p>
@@ -83,10 +121,11 @@ const Testimonial = () => {
                         </div>
                     </div>
                 </div>
+                {/* testimonial 3 */}
                 <div >
-                    <div className='relative flex flex-col xl:justify-between xl:flex-row 2xl:flex-row 2xl:justify-between '>
+                    <div className='relative flex flex-col xl:justify-between xl:flex-row 2xl:flex-row 2xl:justify-between'>
                         <div className='  '>
-                            <div className='flex items-center '>
+                            <div className='flex items-center mr-2'>
                                 <div>
                                     <img
                                         src={pic1}
@@ -95,7 +134,7 @@ const Testimonial = () => {
                                     />
                                 </div>
                                 <div className='text-white 2xl:ml-[20px] xl:ml-[15px] ml-[5px]'>
-                                    <h3 className='testHeading'>Liban Yasin</h3>
+                                    <h3 className='testHeading '>Liban Yasin</h3>
                                     <div className='flex items-center'>
                                         {/* <h4 className='testSubHeading'>Graphics Designer</h4> */}
                                         {/* <h3 className='2xl:ml-[10px] 2xl:mt-[10px] xl:ml-[5px] xl:mt-[5px] ml-1 mt-1'><img className='h-[1px] xl:w-[25px] 2xl:w-[34px] w-[10px]' src={line} alt="" /></h3> */}
@@ -104,9 +143,11 @@ const Testimonial = () => {
                             </div>
                         </div>
                         <div className='2xl:w-[1180px] xl:w-[781px] 2xl:ml-[200px] '>
-                            <p className="text-white 2xl:text-[25px] 2xl:leading-[37.5px] 2xl:mt-0
-                            xl:text-[18px] xl:leading-[25px] xl:mt-0
-                            text-[14px] mt-[20px] 
+                            <p className="text-white 2xl:text-[30px] 2xl:leading-[51px] 2xl:mt-0
+                            xl:text-[25px] xl:leading-[38.75px]
+                            lg:text-[25px] lg:leading-[30px] 
+                            md:text-[20px] md:leading-[25px] 
+                            text-[15px] leading-[25.5px] mt-[20px] 
                             font-glacialBase  xl:bg-[url('/testimonialBg.png')] 2xl:bg-[url('/testimonialBg.png')] bg-[url('/testimonialBgMobile.png')]   bg-no-repeat bg-left-top">
                                They provided me with a high quality work for a friendly price and responded to feedback in a timely way. I will highly recommend to using Fowzi Media's services. A very satisfied client. Thanks
                             </p>
@@ -114,40 +155,11 @@ const Testimonial = () => {
                         </div>
                     </div>
                 </div>
-                <div >
-                    <div className='relative flex flex-col xl:justify-between xl:flex-row 2xl:flex-row 2xl:justify-between '>
-                        <div className='  '>
-                            <div className='flex items-center '>
-                                <div>
-                                    <img
-                                        src={pic3}
-                                        className="block 2xl:w-[51px] 2xl:h-[51px] xl:w-[42px] xl:h-[42px] w-[30px]"
-                                        alt="Wild Landscape"
-                                    />
-                                </div>
-                                <div className='text-white 2xl:ml-[20px] xl:ml-[15px] ml-[5px]'>
-                                    <h3 className='testHeading'>Rondo Services</h3>
-                                    <div className='flex items-center'>
-                                        {/* <h4 className='testSubHeading'>Graphics Designer</h4> */}
-                                        {/* <h3 className='2xl:ml-[10px] 2xl:mt-[10px] xl:ml-[5px] xl:mt-[5px] ml-1 mt-1'><img className='h-[1px] xl:w-[25px] 2xl:w-[34px] w-[10px]' src={line} alt="" /></h3> */}
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className='2xl:w-[1180px] xl:w-[781px] 2xl:ml-[200px] '>
-                            <p className="text-white 2xl:text-[25px] 2xl:leading-[37.5px] 2xl:mt-0
-                            xl:text-[18px] xl:leading-[25px] xl:mt-0
-                            text-[14px] mt-[20px] 
-                            font-glacialBase  xl:bg-[url('/testimonialBg.png')] 2xl:bg-[url('/testimonialBg.png')] bg-[url('/testimonialBgMobile.png')]   bg-no-repeat bg-left-top">
-                               The Fowzi Media team has been excellent to work with. From start to finish, the communication was on point. The design was done exceptionally well per our requirements and was delivered to all locations on time. We highly recommend this company for all digital and web design needs!
-                            </p>
-                            {/* <p className="pt-[5px] text-[#FF0101]" onClick={()=>showBtn()}>{show? "Show More" : "Show Less"}</p> */}
-                        </div>
-                    </div>
-                </div>
+                
           
 
             </Slider>
+            {/* </Marquee> */}
         </div>
     );
 };

@@ -24,20 +24,20 @@
   .leftRight {
     @apply 
     2xl:px-[150px] 2xl:pt-[200px] 
-    xl:px-[80px] xl:pt-[180px]
+    xl:px-[80px] xl:pt-[200px]
     lg:px-[70px] lg:pt-[150px]
     md:px-[50px] md:pt-[100px]
-    px-[20px] pt-[60px]
+    px-[20px] pt-[100px]
      
   }
 
   .titleSubHeading {
     @apply 
-    2xl:text-[40px] 2xl:leading-[48px] 2xl:pb-[60px] 
-    xl:text-[35px] xl:leading-[40px] xl:pb-[50px] 
-    lg:text-[30px] lg:leading-[30px] lg:pb-[40px]
-    md:text-[25px] md:leading-[25px] md:pb-[40px]
-    text-[25px] leading-[25px] pb-[40px]
+    2xl:text-[50px] 2xl:leading-[60px] 2xl:pb-[60px] 
+    xl:text-[40px] xl:leading-[48px] xl:pb-[44px] 
+    lg:text-[35px] lg:leading-[40px] lg:pb-[40px]
+    md:text-[30px] md:leading-[30px] md:pb-[35px]
+    text-[25px] leading-[30px] pb-[25px]
    
     /* -------Common Styles ------ */
     text-white font-glaCailBold
@@ -45,9 +45,16 @@
 
   .cardBaseText {
     @apply 
-    2xl:text-[18px] 2xl:leading-[35.6px] 2xl:text-justify 
-    xl:text-[16px] leading-[20px] xl:text-justify 
-    text-[14px] 
+    /* 2xl:text-[18px] 2xl:leading-[35.6px] 2xl:text-justify  */
+    2xl:text-[30px] 2xl:leading-[51px] 2xl:text-justify 
+    /* xl:text-[16px] leading-[20px] xl:text-justify  */
+    xl:text-[25px] xl:leading-[38.75px] xl:text-justify 
+    lg:text-[25px] lg:leading-[30px] lg:text-justify 
+    md:text-[20px] md:leading-[25px] md:text-justify 
+    text-[15px] leading-[25.5px]
+    /* leading-[20px] text-justify  */
+    /* text-[14px]  */
+    /* text-[18px]  */
     /* ------------common styes ------------- */
     font-glacialBase text-white
   }
@@ -125,10 +132,10 @@
   /* ----------------------------------------------------------------------------------- */
 
   .heroSectionPara {
-    @apply 2xl:text-[18px] 2xl:leading-[30px] 2xl:pt-[40px] 2xl:pb-[50px] 
-    xl:text-[16px] xl:leading-[19.16px] xl:pt-[20px] xl:pb-[30px] 
-    lg:text-[16px] lg:leading-[23px] lg:pt-[20px] lg:pb-[30px]
-    md:text-[15px] md:leading-[19px] md:pt-[25px] md:pb-[15px]
+    @apply 2xl:text-[30px] 2xl:leading-[36px] 2xl:pt-[40px] 2xl:pb-[50px] 
+    xl:text-[25px] xl:leading-[30px] xl:pt-[20px] xl:pb-[30px] 
+    lg:text-[20px] lg:leading-[25px] lg:pt-[20px] lg:pb-[30px]
+    md:text-[15px] md:leading-[20px] md:pt-[25px] md:pb-[15px]
     
     /*----------- common styles here ------------ */
     text-white font-glacialBase hidden md:block lg:block xl:block 2xl:block
@@ -136,7 +143,7 @@
   
   .heroSectionParaMobile {
     @apply 
-    text-[14px] leading-[15px] pt-[20px] pb-[10px] w-[60%] mx-auto
+    text-[15px] leading-[18px] pt-[20px] pb-[10px] w-[60%] mx-auto
 
     
     /*----------- common styles here ------------ */
@@ -156,24 +163,24 @@
   /* ---------------------------Our Services styles here--------------------- */
   /* ----------------------------------------------------------------------------------- */
   .serviceInfoParent {
-    @apply 2xl:w-[764px] xl:w-[568px] lg:w-[400px] md:max-w-[310px] 
+    @apply 2xl:w-[764px] xl:w-[568px] lg:w-[400px] md:w-[40%] 
     /* xl:ml-[150px] */
     /* 2xl:ml-[230px] */
   }
 
   .servicesImg {
     @apply 
-    2xl:w-[623px] 2xl:h-[677px] 
-    xl:w-[488px] xl:h-[500px] 
+    2xl:w-[623px] 2xl:h-[650px] 
+    xl:w-[488px] xl:h-[545px] 
     lg:w-[400px] lg:h-[400px]
-    md:w-[320px] md:h-[400px] 
+    md:w-[320px] md:h-[350px] 
     w-full h-[180px]
   }
 
   .servicesHeading {
     @apply 
-    2xl:text-[40px] 2xl:leading-[48px] 2xl:mt-[-10px] 
-    xl:text-[35px] xl:leading-[42px] xl:mt-[-10px] 
+    2xl:text-[50px] 2xl:leading-[60px] 2xl:mt-[-10px] 
+    xl:text-[40px] xl:leading-[48px] xl:mt-[-10px] 
     lg:text-[30px] 
     text-[20px] mt-[-5px]
     /* ---------Common Style ---------- */
@@ -185,17 +192,17 @@
   }
 
   .cardheadingText {
-    @apply 2xl:text-[25px] 2xl:leading-[30px] 
-    xl:text-[20px] xl:leading-[24px] 
-    lg:text-[20px] lg:leading-[22px]
-    md:text-[16px] md:leading-[18px]
-    text-[14px]
+    @apply 2xl:text-[30px] 2xl:leading-[36px] 2xl:py-[37px]
+    xl:text-[25px] xl:leading-[30px] xl:py-[36px]
+    lg:text-[20px] lg:leading-[25px] lg:py-[30px]
+    md:text-[20px] md:leading-[25px] md:py-[20px]
+    text-[20px] py-[15px]
     /* ---------common Style ------------ */
     font-glaCailBold
   }
 
   .servicesSubParent {
-    @apply 2xl:pl-[25.4px] 2xl:pt-[25px] xl:pt-[20px] xl:pl-[20px] pt-[10px] pl-[10px]
+    @apply 2xl:pl-[25.4px] xl:pl-[20px]  pl-[10px]
   }
 
   .servicesPara {
@@ -243,7 +250,7 @@
     xl:w-[480px] xl:h-[533px] 
     lg:w-[420px] lg:h-[380px]
     md:w-[310px] md:h-[400px] 
-    w-[140px] h-[150px]
+   
   }
 
   .aboutUsLearnMore {
@@ -267,7 +274,7 @@
      xl:text-[20px] xl:leading-[24px] xl:tracking-[5px] xl:top-5 
      lg:text-[16px]
      md:text-[14px]
-     text-[8px] tracking-[2px] top-[5px]
+     text-[15px] leading-[18px] tracking-[4px] top-[5px]
 
        /* ----------Common Styles -------------- */
      absolute text-white w-full flex justify-center  font-glacialBase
@@ -298,13 +305,13 @@
   }
 
   .blogHeading {
-    @apply 2xl:text-[25px] 2xl:leading-[30px] 2xl:px-[15px] xl:text-[20px] xl:leading-[20px] xl:py-[11px] xl:px-[11px] text-[12px] px-[5px]
+    @apply 2xl:text-[30px] 2xl:leading-[36px] 2xl:px-[15px] xl:text-[25px] xl:leading-[30px] xl:py-[11px] xl:px-[11px] lg:text-[30px] lg:leading-[25px] md:text-[25px] md:leading-[25px] text-[15px] leading-[18px] px-[5px]
     /* ---------common Styles ------------- */
     font-glaCailBold text-white
   }
 
   .blogPara {
-    @apply 2xl:text-[15px] 2xl:leading-[18px] 2xl:pt-[15px] 2xl:pb-[25px] 2xl:px-[15px] xl:text-[12px] xl:leading-[15px] xl:px-[11px] xl:pt-[10px] xl:pb-[20px] text-[10px] px-[5px] pt-[5px] pb-[10px]
+    @apply 2xl:text-[20px] 2xl:leading-[30px] 2xl:pt-[15px] 2xl:pb-[25px] 2xl:px-[15px] xl:text-[15px] xl:leading-[22.5px] xl:px-[11px] xl:pt-[10px] xl:pb-[20px] md:text-[15px] md:leading-[22.5px]  text-[10px] leading-[17px] px-[5px] pt-[5px] pb-[10px]
     /* ---------common Styles ------------- */
     font-glacialBase text-white
   }
@@ -405,7 +412,7 @@
   /* ----------------------------------------------------------------------------------- */
 
   .testHeading {
-    @apply 2xl:text-[25px] 2xl:leading-[25px] xl:text-[20px] xl:leading-[25px] text-[16px]
+    @apply 2xl:text-[30px] 2xl:leading-[25px] xl:text-[25px] xl:leading-[25px] text-[15px]
     /* ---------Common Styles ------------- */
     font-glaCailBold text-white
   }
@@ -433,20 +440,20 @@
   }
 
   .aboutUsText {
-    @apply 2xl:text-[18px] 2xl:leading-[23.58px] 2xl:pt-[15px] 2xl:pb-[35px] 
-    xl:text-[16px] xl:leading-[20px] xl:pt-[10px] xl:pb-[30px]
-    lg:text-[16px] lg:leading-[20px] lg:pt-[10px] lg:pb-[30px]
-    md:text-[16px] md:leading-[20px] md:pt-[10px] md:pb-[20px]
-    text-[14px] leading-[20px] pt-[10px] pb-[20px]
+    @apply 2xl:text-[32px] 2xl:leading-[35.6px] 2xl:pt-[15px] 2xl:pb-[35px] 
+    xl:text-[26px] xl:leading-[35.6px] xl:pt-[10px] xl:pb-[30px]
+    lg:text-[26px] lg:leading-[30px] lg:pt-[10px] lg:pb-[30px]
+    md:text-[20px] md:leading-[25px] md:pt-[10px] md:pb-[20px]
+    text-[20px] leading-[25px] pt-[10px] pb-[20px]
     /* -----------Common Styles ----------- */
     font-glacialBase
   }
 
   .aboutParaHeading {
-    @apply 2xl:text-[25px] 2xl:leading-[30px] 
-    xl:text-[20px] xl:leading-[24px]
-    lg:text-[18px] lg:leading-[21px]
-    md:text-[16px] md:leading-[19.18px]
+    @apply 2xl:text-[40px] 2xl:leading-[48px] 
+    xl:text-[35px] xl:leading-[40px]
+    lg:text-[30px] lg:leading-[30px]
+    md:text-[25px] md:leading-[19.18px]
     text-[16px] leading-[19.18px]
     /* -------------common Styles ------------ */
     font-glaCailBold
